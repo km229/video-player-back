@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bienvenue sur ma première page avec OpenClassrooms !</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+    <h1>test</h1>
+    <ul id="navigation">
+      {% for item in history %}
+        <li>{{ item.getUrl() }}</li>
+      {% endfor %}
+    </ul>
+</body>
+</html>

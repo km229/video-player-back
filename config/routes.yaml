@@ -1,0 +1,10 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+list-history:
+    path: /history/list
+    controller: App\Controller\HistoryController::listHistory
+
+add-history-entry:
+    path: /history/add
+    controller: App\Controller\HistoryController::addToHistory
